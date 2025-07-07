@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher, types
 from django.conf import settings
 
-from bot.handlers.user import router
+from apps.bot.handlers.user import router
 
 
 webhook_dp = Dispatcher()
